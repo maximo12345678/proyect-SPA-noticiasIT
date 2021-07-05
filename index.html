@@ -1,0 +1,286 @@
+<!DOCTYPE html> <!-- VIDEO :  https://www.youtube.com/watch?v=Q2imkhmhOFo&t=2s&ab_channel=Fazt -->
+<html lang="en">
+<head> 
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tech News</title>
+
+    <!-- FONT AWESOME  -  https://cdnjs.com/libraries/font-awesome    aca importamos fontawesome, pero tambien se podria descargar todo y cargarlo desde el hostoing u ordenador--> 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.0/css/all.min.css">
+     
+
+    <!-- FONT OSWALD-->
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400&display=swap" rel="stylesheet">
+
+    <!-- CUSTOM CSS-->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  
+    <div class="menu-btn">
+        <i class="fas fa-bars fa-2x"></i> <!-- le cambiamos el tamaño al doble al icono-->
+    </div>
+    
+    <div class="container">
+        <!-- NAVEGADOR -->
+        <nav class="nav-main">
+            <img src="img/brand.png" alt="TechNews LOGO" class="nav-brand">
+            <ul class="nav-menu show"> <!-- lista UL para pestañas de navegacion, es una lista desordenada-->
+                <li> 
+                    <a href="#">Web Developers</a>
+                </li>
+                <li> 
+                    <a href="#">Programres</a>
+                </li>
+                <li> 
+                    <a href="#">Machine learning</a>
+                </li>
+                <li> 
+                    <a href="#">Artificial Intelligence</a>
+                </li>
+                <li> 
+                    <a href="#">Computers</a>
+                </li>
+                <li> 
+                    <a href="#">Informations</a>
+                </li>
+                <li> 
+                    <a href="#">More</a>
+                </li>
+            </ul>
+            <ul class="nav-menu-right"> <!-- para la seccion de la derecha, el icono que se ve por pantalla -->
+                <li>
+                    <a href="#">
+                        <i class="fas fa-search"></i> <!-- fas fa es una clase de font awesome. search es la lupita de buscar-->
+                    </a>
+                </li>
+
+            </ul>
+        </nav>
+        <hr> <!-- una linea debajo de la navegacion-->
+
+        <!-- SHOWCASE-->
+        <header class="showcase">
+            <h2>Big News Today</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo earum quia provident officia sed placeat, dolorum optio beatae pariatur soluta quisquam modi deleniti maiores iure libero. At alias quibusdam consequuntur.</p>
+
+            <a href="a" class="btn">Read More <i class="fas fa-angle-double-right"></i></a>  <!--. la etiqueta i, ponemos esa clase de font-awesome que son como 2 flechitas...  la clase btn la usamos para luego crear mas botones, y poder modificarla desde el css-->
+        </header>
+
+        <!-- NEWS CARDS-->
+        <div class="news-cards"> <!-- adentro van todos los DIVS, cada div contiene una noticia. son columnas-->
+            <div> 
+                <img src="img/news1.jpg" alt="News 1">
+                <h3>Lorem, imspu dolor</h3>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Facere, accusantium! Dignissimos provident iusto sit sed quaerat similique veritatis unde quam! Repellat ipsa eius laborum itaque tenetur aliquid, dolore iste facere.</p>
+                <a href="#">Learn More <i class="fas fa-angle-double-right"></i></a>
+            </div>
+            <div> 
+                <img src="img/news2.jpg" alt="News 2">
+                <h3>Lorem, imspu dolor</h3>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Facere, accusantium! Dignissimos provident iusto sit sed quaerat similique veritatis unde quam! Repellat ipsa eius laborum itaque tenetur aliquid, dolore iste facere.</p>
+                <a href="#">Learn More <i class="fas fa-angle-double-right"></i></a>
+            </div>
+            <div> 
+                <img src="img/news3.jpg" alt="News 3">
+                <h3>Lorem, imspu dolor</h3>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Facere, accusantium! Dignissimos provident iusto sit sed quaerat similique veritatis unde quam! Repellat ipsa eius laborum itaque tenetur aliquid, dolore iste facere.</p>
+                <a href="#">Learn More <i class="fas fa-angle-double-right"></i></a>
+            </div>
+            <div> 
+                <img src="img/news4.jpg" alt="News 4">
+                <h3>Lorem, imspu dolor</h3>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Facere, accusantium! Dignissimos provident iusto sit sed quaerat similique veritatis unde quam! Repellat ipsa eius laborum itaque tenetur aliquid, dolore iste facere.</p>
+                <a href="#">Learn More <i class="fas fa-angle-double-right"></i></a>
+            </div>
+        </div>
+
+        <!-- BANNER -->
+        <section class="cards-banner-one">
+            <div class="content">
+                <h2>Lorem, ipsum dolor.</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci, unde facere magnam, nemo ipsam voluptatum quae corporis cum minima harum quam accusamus!</p>
+                <a href="a" class="btn">Learn More <i class="fas fa-angle-double-right"></i></a>
+            </div>
+        </section>
+
+    
+        <!-- CARDS iguales a las anteriores noticias-->
+        <div class="news-cards"> <!-- adentro van todos los DIVS, cada div contiene una noticia. son columnas-->
+            <div> 
+                <img src="img/news1.jpg" alt="News 1">
+                <h3>Lorem, imspu dolor</h3>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Facere, accusantium! Dignissimos provident iusto sit sed quaerat similique veritatis unde quam! Repellat ipsa eius laborum itaque tenetur aliquid, dolore iste facere.</p>
+                <a href="#">Learn More <i class="fas fa-angle-double-right"></i></a>
+            </div>
+            <div> 
+                <img src="img/news2.jpg" alt="News 2">
+                <h3>Lorem, imspu dolor</h3>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Facere, accusantium! Dignissimos provident iusto sit sed quaerat similique veritatis unde quam! Repellat ipsa eius laborum itaque tenetur aliquid, dolore iste facere.</p>
+                <a href="#">Learn More <i class="fas fa-angle-double-right"></i></a>
+            </div>
+            <div> 
+                <img src="img/news3.jpg" alt="News 3">
+                <h3>Lorem, imspu dolor</h3>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Facere, accusantium! Dignissimos provident iusto sit sed quaerat similique veritatis unde quam! Repellat ipsa eius laborum itaque tenetur aliquid, dolore iste facere.</p>
+                <a href="#">Learn More <i class="fas fa-angle-double-right"></i></a>
+            </div>
+            <div> 
+                <img src="img/news4.jpg" alt="News 4">
+                <h3>Lorem, imspu dolor</h3>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Facere, accusantium! Dignissimos provident iusto sit sed quaerat similique veritatis unde quam! Repellat ipsa eius laborum itaque tenetur aliquid, dolore iste facere.</p>
+                <a href="#">Learn More <i class="fas fa-angle-double-right"></i></a>
+            </div>
+        </div>
+
+
+        <!-- OTRO BANNER, no copiado-->
+        <section class="cards-banner-two">
+            <div class="content">
+                <h2>Lorem, ipsum dolor.</h2>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Facilis possimus nesciunt odio eius consectetur natus magni omnis dicta odit culpa!</p>
+                <a href="#" class="btn">Learn More <i class="fas fa-angle-double-right"></i></a>
+            </div>
+        </section>
+
+
+        <!-- CLASE REDES SOCIALES-->
+        <section class="social">
+            <p>Follow TechNews</p>
+            <div class="links">
+                <a href="#">
+                    <i class="fab fa-facebook-f" href="https://www.facebook.com/"></i> <!--clase de font awesome para el logo de facebook -->
+                </a>
+                <a href="#">
+                    <i class="fab fa-twitter"></i> <!--clase de font awesome para el logo de facebook -->
+                </a>
+                <a href="#">
+                    <i class="fab fa-linkedin"></i> <!--clase de font awesome para el logo de facebook -->
+                </a>
+            </div>
+        </section>
+
+        
+
+    </div>
+
+    <div class="footer-links"> <!-- fuera del contenedor principal, aca ponemos la parte de abajo-->
+        <div class="footer-container"> <!-- creamos esta clase para despues centrarlo-->
+            <ul>
+                <li>
+                    <a href="#">
+                        <h3>Title One</h3>
+                    </a>
+                </li> 
+                <li>
+                    <a href="#">Block Chain</a>
+                </li>
+                <li>
+                    <a href="#">Block Chain</a>
+                </li>
+                <li>
+                    <a href="#">Block Chain</a>
+                </li>
+                <li>
+                    <a href="#">Block Chain</a>
+                </li>
+                <li>
+                    <a href="#">Block Chain</a>
+                </li>
+                <li>
+                    <a href="#">Block Chain</a>
+                </li>
+            </ul>
+            <ul>
+                <li>
+                    <a href="#">
+                        <h3>Title Two</h3>
+                    </a>
+                </li> 
+                <li>
+                    <a href="#">Block Chain</a>
+                </li>
+                <li>
+                    <a href="#">Block Chain</a>
+                </li>
+                <li>
+                    <a href="#">Block Chain</a>
+                </li>
+                <li>
+                    <a href="#">Block Chain</a>
+                </li>
+                <li>
+                    <a href="#">Block Chain</a>
+                </li>
+                <li>
+                    <a href="#">Block Chain</a>
+                </li>
+            </ul>
+            <ul>
+                <li>
+                    <a href="#">
+                        <h3>Title Three</h3>
+                    </a>
+                </li> 
+                <li>
+                    <a href="#">Block Chain</a>
+                </li>
+                <li>
+                    <a href="#">Block Chain</a>
+                </li>
+                <li>
+                    <a href="#">Block Chain</a>
+                </li>
+                <li>
+                    <a href="#">Block Chain</a>
+                </li>
+                <li>
+                    <a href="#">Block Chain</a>
+                </li>
+                <li>
+                    <a href="#">Block Chain</a>
+                </li>
+            </ul>
+            <ul>
+                <li>
+                    <a href="#">
+                        <h3>Title Four</h3>
+                    </a>
+                </li> 
+                <li>
+                    <a href="#">Block Chain</a>
+                </li>
+                <li>
+                    <a href="#">Block Chain</a>
+                </li>
+                <li>
+                    <a href="#">Block Chain</a>
+                </li>
+                <li>
+                    <a href="#">Block Chain</a>
+                </li>
+                <li>
+                    <a href="#">Block Chain</a>
+                </li>
+                <li>
+                    <a href="#">Block Chain</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <footer class="footer">
+        <h3>Tech News Copyright</h3>
+    </footer>
+
+    <!-- SCROLL REVEAL  https://scrollrevealjs.org/  si o si esto va primero que el script del codigo, ya que sino no reconoce scroll-->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+        
+    <!-- CODIGO JS-->
+    <script src="main.js"></script>
+
+
+</body>
+</html>
